@@ -317,17 +317,29 @@ function App() {
     };
 
     return (
+<<<<<<< HEAD
         <main className="w-screen h-screen bg-[#2171b5] text-slate-800 flex flex-col items-center justify-center p-4 lg:p-6 overflow-hidden">
+=======
+        <main className="w-screen h-screen bg-gradient-to-br from-sky-100 to-blue-200 text-slate-800 flex flex-col items-center justify-center p-4 lg:p-6 overflow-hidden">
+>>>>>>> 1c80218d0c0cf9e755ed50c61f2613d32c2a61bc
              <style>{`
                 .custom-scrollbar::-webkit-scrollbar { width: 8px; }
                 .custom-scrollbar::-webkit-scrollbar-track { background: transparent; }
                 .custom-scrollbar::-webkit-scrollbar-thumb {
+<<<<<<< HEAD
                     background-color: rgba(100, 116, 139, 0.5);
+=======
+                    background-color: rgba(30, 64, 175, 0.3);
+>>>>>>> 1c80218d0c0cf9e755ed50c61f2613d32c2a61bc
                     border-radius: 10px;
                     border: 2px solid transparent;
                     background-clip: content-box;
                 }
+<<<<<<< HEAD
                 .custom-scrollbar::-webkit-scrollbar-thumb:hover { background-color: rgba(100, 116, 139, 0.8); }
+=======
+                .custom-scrollbar::-webkit-scrollbar-thumb:hover { background-color: rgba(30, 64, 175, 0.5); }
+>>>>>>> 1c80218d0c0cf9e755ed50c61f2613d32c2a61bc
             `}</style>
             <div className="w-full h-full max-w-screen-2xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-6">
                 
@@ -340,7 +352,11 @@ function App() {
                 </div>
 
                 <div className="flex flex-col items-center justify-center gap-4 h-full min-h-[50vh] lg:min-h-0">
+<<<<<<< HEAD
                     <div className="w-full h-full bg-slate-800/50 backdrop-blur-md rounded-xl p-2 shadow-2xl shadow-black/30 border border-white/10">
+=======
+                    <div className="w-full h-full bg-black/5 rounded-xl p-2 shadow-inner">
+>>>>>>> 1c80218d0c0cf9e755ed50c61f2613d32c2a61bc
                         <Canvas camera={{ position: [5, 5, 5], fov: 35 }}>
                             <ambientLight intensity={1.2} />
                             <directionalLight position={[10, 10, 5]} intensity={0.8} />
