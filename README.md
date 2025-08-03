@@ -15,12 +15,12 @@
     An awesome project to solve and visualize the Rubik's Cube!
     <br />
     <br />
-    <a href="https://github.com/[your_username]/Rubiks-Cube/demo">View Demo</a>
+    <!-- <a href="https://github.com/[your_username]/Rubiks-Cube/demo">View Demo</a>
     ·
     <a href="https://github.com/[your_username]/Rubiks-Cube/issues">Report Bug</a>
     ·
     <a href="https://github.com/[your_username]/Rubiks-Cube/issues">Request Feature</a>
-  </p>
+  </p> -->
 </p>
 
 <!-- TABLE OF CONTENTS -->
